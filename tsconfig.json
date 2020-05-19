@@ -1,0 +1,28 @@
+{
+  "compileOnSave": false,
+  "compilerOptions": {
+    "target": "es6",
+    "module": "commonjs",
+    "moduleResolution": "node",
+    "experimentalDecorators": true,
+    "emitDecoratorMetadata": true,
+    "noUnusedLocals": true,
+    "noImplicitAny": true,
+    "declaration": false,
+    "pretty": true,
+    "strictNullChecks": true,
+    "skipLibCheck": true,
+    "strictPropertyInitialization": true,
+    "esModuleInterop":true,
+    "outDir": "./dist",
+    "jsx": "react"
+  },
+  "include": [
+    "src/**/*.ts",
+    "index.ts", "src/client/components/Counter.tsx", "src/client/html.ts"
+  ],
+  "exclude": [
+    "node_modules",
+    "src/server/__tests__"
+  ]
+}
